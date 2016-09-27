@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>Search</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id='title'>YouTube's Most Watched</div>
+<div id='vid'>
+  <div id="player"></div>
+</div>
+<div id="buttons">
+<input id="query" value='cats' type="text"/><input id="search-button" type='submit' value='Search'/></div>
+<div id='restart' style="visibility:hidden;">
+  <input id="restart-button" type='submit' value='Go Back'/>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"> </script>
+ <script src="search.js"></script>
+</body>
+</html>
